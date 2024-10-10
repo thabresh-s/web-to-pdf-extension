@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Web Article to PDF",
+    "description": "Convert any web article to a PDF file.",
+    "version": "1.0",
+    "permissions": ["activeTab", "downloads", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  }
+  
